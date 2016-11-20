@@ -16,7 +16,7 @@ angular.module('mc.services', ['mc.config'])
           that.results = res;
         })
         .error(function(res){ // this will get run in the browser due to a cross-site permissions error
-          data = {count: "24"}; // return some fake data to test with
+          data = {count: "-1"}; // return some fake data to test with
           console.log("MC failed="+data);
           that.results = data;
         });

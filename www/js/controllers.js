@@ -14,7 +14,7 @@ angular.module('mc.controllers', [])
   		console.log("watch got results = "+results.count);
   		$scope.data.sentenceCount = results.count;
   	} else {
-  		console.log("watch go null");
+  		console.log("watch got null");
   	}
   });
   console.log("Calling MC from ctrl");

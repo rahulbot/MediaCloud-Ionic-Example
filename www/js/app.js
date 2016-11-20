@@ -26,7 +26,7 @@ angular.module('mc', ['ionic', 'mc.controllers', 'mc.services', 'mc.config'])
   
   $stateProvider
 
-    .state('app', {
+  .state('app', {
     url: '/app',
     abstract: true,
     templateUrl: 'templates/menu.html',
